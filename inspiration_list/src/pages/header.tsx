@@ -4,7 +4,7 @@ export const Header = () => {
 
     return(
         <>
-        <h2>Inspiration for the everyday</h2>
+        <h1>Inspiration for the everyday</h1>
         <nav>
             <ul>
                 <li>
