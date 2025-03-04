@@ -6,8 +6,8 @@ export const useIdeas = () => {
         JSON.parse(localStorage.getItem("ideas") || "[]")
     );
 
-    const addIdea = (newIdeaInput: string) => {
-        setIdeas([...ideas, new Idea(newIdeaInput)])
+    const addIdea = (newIdeaInput: string, newIdeaComment:string) => {
+        setIdeas([...ideas, new Idea(newIdeaInput, newIdeaComment)])
     }
 
     const removeIdea = (id: number) => {

@@ -1,8 +1,10 @@
 import { Outlet } from "react-router"
+import { Header } from "./header"
+import "../css/layout.css"
 
 export const Layout = () => {
     return <>
-    <header></header>
+    <header><Header /> </header>
     <main>
         <Outlet />
     </main>
